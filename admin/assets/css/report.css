@@ -1,0 +1,41 @@
+.body-panel{
+	padding-left: 10px;padding-right: 15px;padding-left: 10px;padding-right: 15px;right: 2%;margin-left: 12px;
+}
+#Report{
+
+    font-family: Arial,sans-serif;
+}
+#Report h4{
+    font-weight: 600;
+    color: black;
+    font-style: normal;
+    font-family: Arial,sans-serif;
+    font-size: 17px;
+}
+#Report h2{
+    text-align: center;
+    color: black;
+    font-family: Arial,sans-serif;
+    margin-top: 0px;
+    font-weight: 600;
+}
+ #Report .table.table-bordered>thead>tr{
+    background-image: none !important;
+    background:none;
+}
+ @media print {
+    #navbar, #sidebar{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    #Report .btn-print{
+          display: none;
+      }
+    #Report{
+         width: 100%;
+         height: 500px;
+         box-shadow:  inset 0 0 0 1000px #000
+    }
+}

@@ -1,0 +1,213 @@
+.nav-tabs>li>a {
+    padding: 9px 89px 8px;
+}
+.gallery-title{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#showpost .list-left {
+    width: 60%;
+    margin-left: 0%;
+    float: left;
+    margin-top: 1%;
+}
+#showpost li p {
+    overflow: hidden;
+    word-wrap: break-word;
+    color: #404040;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#showpost li .date {
+    font-size: 15px;
+    margin: 15px 5px 5px 0;
+    color: #C1C1C1;
+    font-weight: 400;
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.zoommodal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption-zoom {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.zoommodal-content, #caption-zoom { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-shadow: none;
+    opacity: unset;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .zoommodal-content {
+        width: 100%;
+    }
+}
+
+.client img {
+       width: 70%;
+    /* border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%; */
+}
+.client {
+    float: left;
+    margin-right:0%;
+    /* text-align: center; */
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #D1E0EE;
+}
+.happy-clients-grids {
+    margin-top: 10px;
+}
+.happy-clients-grid {
+      background: #f6f6f6;
+    padding: 16px 30px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    width: 100%;
+    margin: 0% 3% 0 0;
+    margin-bottom: 5px;
+}
+.happy-clients-grid h4.heading {
+    color: #f6772c;
+    text-decoration: none;
+    font-size: 17px;
+}
+#container .list li {
+    background: #FFFFFF;
+    margin-bottom: 0px;
+    padding: 5px;
+    height: 78px;
+    width: 48%;
+    list-style-type: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    box-shadow: 0 0 0.6em #ccc;
+    -webkit-box-shadow: 0 0 0.6em #ccc;
+    -o-box-shadow: 0 0 0.6em #ccc;
+    -moz-box-shadow: 0 0 0.6em #ccc;
+    -ms-box-shadow: 0 0 0.6em #ccc;
+    float: left;
+    margin-left: 2%;
+}
+#container .list li img {
+    position: relative;
+    float: left;
+    margin-right: 0;
+    padding-bottom: 0;
+    border: 1px solid #D1E0EE;
+    padding: 0;
+    width: 14%;
+    background-color: #fff;
+    height: 100%;
+}
+#container .list li .list-left {
+    width: 70%;
+    margin-left: 3%;
+    float: left;
+}
+.happy-clients-grid p {
+    color: #7b7b7b;
+    font-size: 13px;
+    line-height: 1.9em;
+    margin-bottom: 16px;
+}
+.happy-clients-grid h4 {
+    color: #99a9ae;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+#container .list li .title {
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
